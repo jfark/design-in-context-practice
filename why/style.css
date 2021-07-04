@@ -1,0 +1,226 @@
+html {
+	height: 100%;
+	margin: 0;
+}
+
+body {
+	font-family: 'Roboto Mono', monospace;
+	font-size: 2em;
+	font-weight: bold;
+	background: #FFFBB7;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	max-height: 100%;
+	max-width: 100%;
+	
+}
+
+.container {
+	border: 0px solid white;
+	box-sizing: border-box;
+	height: 100%;
+	max-width: 100%;
+	overflow-x: auto;
+	overflow-y: auto;
+	position: relative;
+}
+
+.directions {
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 99;
+	max-width: 50%;
+}
+
+.scroll-directions:hover .directions {
+	display: inline;
+}
+
+header img {
+	max-width: 45%;
+	padding-top: 40px;
+}
+
+header {
+	padding: 0;
+	position: relative;
+}
+
+header:hover:after {
+	content: "Scroll right to see some of my favorite examples of the visual language I absorbed as a kid in NYC"; 
+	display: inline-block;
+	position: fixed;
+	font-size: .8em;
+	z-index: 300;
+	transform: skewY(10deg);
+	top: 100px;
+	color: #F300F3;
+	border: 10px solid blue;
+	background: yellow;
+}
+
+main {
+	display: flex;
+	overflow-x: auto;
+	margin: 20px 0px 40px 80px;
+	align-items: center;
+	border: 30px solid black;
+	border-right: none;
+	background: black;
+	position: relative;
+}
+
+
+main::-webkit-scrollbar {
+    display: none;
+}
+
+main img {
+	height: 400px;
+	padding: 10px 20px 10px 0px;	
+}
+
+.one {
+	position: relative;
+	display: inline-block;
+	max-height: 100%;
+	
+}
+
+.two {
+	display: none;
+	position: absolute;
+	top: 75px;
+	left: 0;
+	max-width: 25%;
+	max-height: 100%;
+	color: yellow;
+	font-size: .6em;
+	transform: skewY(-25deg);
+	border: 5px solid #F300F3;
+	background: rgba(0,0,255,.7);
+	z-index: 99;
+}
+
+.one:hover .two {
+	display: inline-block;
+}
+
+footer {
+	margin: 100px;
+}
+
+.lineup {
+	display: flex;
+}
+
+.lineup img {
+	max-width: 100%;
+}
+
+.who {
+	position: relative;
+}
+
+.who-bot {
+	position: absolute;
+	z-index: 99;
+	display: none;
+}
+
+.who:hover .who-bot {
+	display: inline;
+}
+
+.what {
+	position: relative;
+}
+
+.what-bot {
+	position: absolute;
+	z-index: 99;
+	display: none;
+}
+
+.what:hover .what-bot {
+	display: inline;
+}
+
+.where {
+	position: relative;
+}
+
+.where-bot {
+	position: absolute;
+	z-index: 99;
+	display: none;
+}
+
+.where:hover .where-bot {
+	display: inline;
+}
+
+.when {
+	position: relative;
+}
+
+.when-bot {
+	position: absolute;
+	z-index: 99;
+	display: none;
+}
+
+.when:hover .when-bot {
+	display: inline;
+}
+
+.why {
+	position: relative;
+}
+
+.why-bot {
+	position: absolute;
+	z-index: 99;
+	display: none;
+}
+
+.why:hover .why-bot {
+	display: inline;
+}
+
+.how {
+	position: relative;
+}
+
+.how-bot {
+	position: absolute;
+	z-index: 99;
+	display: none;
+}
+
+.how:hover .how-bot {
+	display: inline;
+}
+
+.lineup:hover:after {
+	content: url(../images/question.gif);
+	
+}
+
+
+.main {
+	display: none;
+}
+
+.reveal {
+	display: none;
+}
+
+
+
+
+
+	
+	

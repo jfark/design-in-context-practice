@@ -1,0 +1,221 @@
+body {
+	font-family: 'Roboto Mono', monospace;
+	font-size: 2em;
+	font-weight: bold;
+	padding: 40px 5px;
+	max-width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	background: #FFD2BC;
+	
+}
+
+p {
+	padding: 15px;
+}
+
+p:hover {
+	color: #74DAFC;
+	background: rgba(0,73,42,0.65);
+	z-index: 120;
+	transform: skewY(-20deg);
+}
+
+header img {
+	max-width: 45%;
+	padding-top: 40px;
+}
+
+footer {
+	margin: 100px;
+}
+
+.row1 {
+	display: flex;
+	justify-content: center;
+	max-width: 100%;
+	margin: 15px 15px 0px 0px;
+	padding: 10px 50px 0px 50px;
+	font-size: .65em;
+}
+
+.row2 {
+	display: flex;
+	margin: 0px 15px 0px 0px;
+	padding: 0px 50px 20px 50px;
+	font-size: .65em;
+}
+
+.first {
+	flex: 2;
+	position: relative;
+	padding: 80px 20px 0px 30px;
+	margin: 0;
+}
+
+.second {
+	flex: 1;
+	position: relative;
+	padding: 0px 20px;
+	margin: 0px;
+}
+
+.third {
+	flex: 3;
+	position: relative;
+	padding: 0px 60px;
+	margin: 0px;
+}
+
+.fourth {
+	flex: 1;
+	position: relative;
+	padding: 0px 20px;
+	margin: 0px;
+}
+
+.bigcontain {
+	position: relative;
+}
+
+.containmain {
+	position: absolute;
+	top: 100;
+}
+
+main img {
+	max-width: 90%;
+}
+
+main {
+	position: relative;
+	display: inline-block;
+	margin: 0px 80px 0px 80px;
+}
+
+main .two {
+	
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+
+main:hover .two {
+	display: inline;
+}
+
+.lineup {
+	display: flex;
+}
+
+.lineup img {
+	max-width: 100%;
+}
+
+.who {
+	position: relative;
+}
+
+.who-bot {
+	position: absolute;
+	z-index: 99;
+	display: none;
+}
+
+.who:hover .who-bot {
+	display: inline;
+}
+
+.what {
+	position: relative;
+}
+
+.what-bot {
+	position: absolute;
+	z-index: 99;
+	display: none;
+}
+
+.what:hover .what-bot {
+	display: inline;
+}
+
+.where {
+	position: relative;
+}
+
+.where-bot {
+	position: absolute;
+	z-index: 99;
+	display: none;
+}
+
+.where:hover .where-bot {
+	display: inline;
+}
+
+.when {
+	position: relative;
+}
+
+.when-bot {
+	position: absolute;
+	z-index: 99;
+	display: none;
+}
+
+.when:hover .when-bot {
+	display: inline;
+}
+
+.why {
+	position: relative;
+}
+
+.why-bot {
+	position: absolute;
+	z-index: 99;
+	display: none;
+}
+
+.why:hover .why-bot {
+	display: inline;
+}
+
+.how {
+	position: relative;
+}
+
+.how-bot {
+	position: absolute;
+	z-index: 99;
+	display: none;
+}
+
+.how:hover .how-bot {
+	display: inline;
+}
+
+.lineup:hover:after {
+	content: url(../images/question.gif);
+	
+}
+
+
+.main {
+	display: none;
+}
+
+.reveal {
+	display: none;
+}
+
+
+
+
+
+	
+	

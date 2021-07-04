@@ -1,0 +1,238 @@
+body {
+	font-family: 'Roboto Mono', monospace;
+	font-size: 3em;
+	font-weight: bold;
+	color: #B0155B;
+	padding: 40px 5px;
+	max-width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	background: #FFAC0B;
+}
+
+header img {
+	max-width: 45%;
+	padding-top: 40px;
+}
+
+main {
+	display: flex;
+	padding: 0px 70px;
+}
+
+main div {
+	flex: 1;
+}
+
+main img {
+	max-width: 100%;
+}
+
+.door-one {
+	position: relative;
+	display: inline-block;
+}
+
+.text-one {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 300;
+	border: 10px solid #01ECED;
+	padding: 5px 200px 5px 200px;
+	background: rgba(19,31,71,0.5);
+	color: #FF5821;
+	transform: rotate(30deg) skewX(-30deg) scaleY(2) scaleX(1.5);
+}
+
+.door-one:hover .text-one {
+	display: inline;
+}
+
+.door-one:hover:after {
+	content: url(../images/dorito.gif);
+	position: absolute;
+	top: 100px;
+	left: -150px;
+	z-index: 200;
+}
+
+.door-two {
+	position: relative;
+	display: inline-block;
+}
+
+.text-two {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 300;
+	border: 10px solid #01ECED;
+	padding: 150px 40px;
+	color: #CED51F;
+	background: rgba(243,0,243,0.5);
+	transform: skewX(-15deg) scaleX(2) scaleY(3);
+}
+
+.door-two:hover .text-two {
+	display: inline;
+}
+
+.door-two:hover:after {
+	content: url(../images/dancing.gif);
+	position: absolute;
+	top: 100px;
+	left: -75px;
+	z-index: 200;
+	transform: skewY(40deg) skewX(10deg) scaleX(1.5) scaleY(2.5);
+}
+
+.door-three {
+	position: relative;
+	display: inline-block;
+}
+
+.text-three {
+	display: none;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 99;
+	border: 10px solid #01ECED;
+	padding: 50px 300px;
+	background: rgba(115,206,7,0.5);
+	transform: skewY(-10deg) scaleX(1.5) scaleY(2);
+}
+
+.door-three:hover .text-three {
+	display: inline;
+}
+
+.door-three:hover:after {
+	content: url(../images/curling.gif);
+	position: absolute;
+	top: 150px;
+	right: 0;
+	z-index: 200;
+	transform: skewY(10deg) skewX(-20deg);
+}
+
+footer {
+	margin: 100px;
+}
+
+.lineup {
+	display: flex;
+}
+
+.lineup img {
+	max-width: 100%;
+}
+
+.who {
+	position: relative;
+}
+
+.who-bot {
+	position: absolute;
+	z-index: 99;
+	display: none;
+}
+
+.who:hover .who-bot {
+	display: inline;
+}
+
+.what {
+	position: relative;
+}
+
+.what-bot {
+	position: absolute;
+	z-index: 99;
+	display: none;
+}
+
+.what:hover .what-bot {
+	display: inline;
+}
+
+.where {
+	position: relative;
+}
+
+.where-bot {
+	position: absolute;
+	z-index: 99;
+	display: none;
+}
+
+.where:hover .where-bot {
+	display: inline;
+}
+
+.when {
+	position: relative;
+}
+
+.when-bot {
+	position: absolute;
+	z-index: 99;
+	display: none;
+}
+
+.when:hover .when-bot {
+	display: inline;
+}
+
+.why {
+	position: relative;
+}
+
+.why-bot {
+	position: absolute;
+	z-index: 99;
+	display: none;
+}
+
+.why:hover .why-bot {
+	display: inline;
+}
+
+.how {
+	position: relative;
+}
+
+.how-bot {
+	position: absolute;
+	z-index: 99;
+	display: none;
+}
+
+.how:hover .how-bot {
+	display: inline;
+}
+
+.lineup:hover:after {
+	content: url(../images/question.gif);
+	
+}
+
+
+.main {
+	display: none;
+}
+
+.reveal {
+	display: none;
+}
+
+
+
+
+
+	
+	

@@ -1,0 +1,232 @@
+body {
+	font-family: 'Roboto Mono', monospace;
+	font-size: 3em;
+	font-weight: bold;
+	max-width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	background: #CBFF52;
+}
+
+.container {
+	max-width: 100%;
+}
+
+header img {
+	max-width: 45%;
+	padding: 0px 0px;
+}
+
+section {
+	display: flex;
+}
+
+main {
+	position: relative;
+	max-width: 100%;
+}
+
+.roadway {
+	position: absolute;
+	bottom: 0px;
+	z-index: -1;
+}
+
+section {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	max-width: 100%;
+}
+
+.one {
+	position: relative;
+	flex: 1;
+}
+
+.left {
+	display: none;
+	position: absolute;
+	top: 275px;
+	right: 0px;
+	max-width: 50%;
+	z-index: 300;
+	color: white;
+	transform: skewY(-10deg) skewX(-50deg) scaleY(.75) scaleX(1.25) rotate(10deg);
+	background: linear-gradient(to top, rgba(255,0,0,0), rgba(255,0,0,1));;
+}
+
+.one:hover .left {
+	display: inline;
+}
+
+.one img {
+	width: 100%;
+}
+
+.two img {
+	width: 100%;
+}
+
+.one:hover:after {
+	content: url(../images/hudsonriv4two.png);
+	position: absolute;
+	top: 0;
+	left: 0;
+	ground: rgba(0,0,0,.3);
+}
+
+.two {
+	position: relative;
+	display: inline-block;
+	align-items: flex-end;
+	justify-content: right;
+	flex: 2;
+}
+
+.right {
+	display: none;
+	position: absolute;
+	top: 300px;
+	left: 100px;
+	color: white;
+	text-align: center;
+	z-index: 300;
+	max-width: 250px;
+	transform: skewY(10deg) skewX(20deg) scaleY(1.5) rotate(-5deg);
+	background: linear-gradient(to top, rgba(0,0,255,0), rgba(0,0,255,1));
+}
+
+.two:hover .right {
+	display: inline;
+}
+
+.two:hover:after {
+	content: url(../images/nystwo.png);
+	position: absolute;
+	top: 0;
+	left: 0;
+	ground: rgba(0,0,0,.25);
+}
+
+.roadway {
+	width: 100%;
+}
+
+footer {
+	margin: 100px;
+}
+
+.lineup {
+	display: flex;
+}
+
+.lineup img {
+	max-width: 100%;
+}
+
+.who {
+	position: relative;
+}
+
+.who-bot {
+	position: absolute;
+	z-index: 99;
+	display: none;
+}
+
+.who:hover .who-bot {
+	display: inline;
+}
+
+.what {
+	position: relative;
+}
+
+.what-bot {
+	position: absolute;
+	z-index: 99;
+	display: none;
+}
+
+.what:hover .what-bot {
+	display: inline;
+}
+
+.where {
+	position: relative;
+}
+
+.where-bot {
+	position: absolute;
+	z-index: 99;
+	display: none;
+}
+
+.where:hover .where-bot {
+	display: inline;
+}
+
+.when {
+	position: relative;
+}
+
+.when-bot {
+	position: absolute;
+	z-index: 99;
+	display: none;
+}
+
+.when:hover .when-bot {
+	display: inline;
+}
+
+.why {
+	position: relative;
+}
+
+.why-bot {
+	position: absolute;
+	z-index: 99;
+	display: none;
+}
+
+.why:hover .why-bot {
+	display: inline;
+}
+
+.how {
+	position: relative;
+}
+
+.how-bot {
+	position: absolute;
+	z-index: 99;
+	display: none;
+}
+
+.how:hover .how-bot {
+	display: inline;
+}
+
+.lineup:hover:after {
+	content: url(../images/question.gif);
+	
+}
+
+
+.main {
+	display: none;
+}
+
+.reveal {
+	display: none;
+}
+
+
+
+
+
+	
+	

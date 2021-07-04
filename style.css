@@ -1,0 +1,128 @@
+body {
+	padding: 5px;
+	background: repeating-linear-gradient(
+	to right,
+	#CBE2CB,
+	#CBE2CB 10px,
+	#fff 10px,
+	#fff 40px);
+	margin: 0px 100px;
+}
+
+header {
+	padding: 125px 10px;
+}
+
+.lineup {
+	display: flex;
+	
+}
+
+.lineup img {
+	max-width: 100%;
+}
+
+.who {
+	position: relative;
+}
+
+.who-bot {
+	position: absolute;
+	z-index: 99;
+	display: none;
+}
+
+.who:hover .who-bot {
+	display: inline;
+}
+
+.what {
+	position: relative;
+}
+
+.what-bot {
+	position: absolute;
+	z-index: 99;
+	display: none;
+}
+
+.what:hover .what-bot {
+	display: inline;
+}
+
+.where {
+	position: relative;
+}
+
+.where-bot {
+	position: absolute;
+	z-index: 99;
+	display: none;
+}
+
+.where:hover .where-bot {
+	display: inline;
+}
+
+.when {
+	position: relative;
+}
+
+.when-bot {
+	position: absolute;
+	z-index: 99;
+	display: none;
+}
+
+.when:hover .when-bot {
+	display: inline;
+}
+
+.why {
+	position: relative;
+}
+
+.why-bot {
+	position: absolute;
+	z-index: 99;
+	display: none;
+}
+
+.why:hover .why-bot {
+	display: inline;
+}
+
+.how {
+	position: relative;
+}
+
+.how-bot {
+	position: absolute;
+	z-index: 99;
+	display: none;
+}
+
+.how:hover .how-bot {
+	display: inline;
+}
+
+.lineup:hover:after {
+	content: url(images/question.gif);
+	
+}
+
+
+.main {
+	display: none;
+}
+
+.reveal {
+	display: none;
+}
+
+
+
+
+
+	
+	
